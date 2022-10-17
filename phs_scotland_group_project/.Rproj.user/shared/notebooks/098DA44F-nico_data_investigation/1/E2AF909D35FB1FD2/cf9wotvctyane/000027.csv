@@ -1,0 +1,20 @@
+"0","hb_speciality <- read_csv(""raw_data/covid_raw_data/hospital_admissions_hb_specialty_20220302.csv"") %>% "
+"0","  clean_names()"
+"2","[1mRows: [22m[34m38821[39m [1mColumns: [22m[34m10[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (6): HB, HBQF, AdmissionType, AdmissionTypeQF, Specialty, SpecialtyQF
+[32mdbl[39m (4): WeekEnding, NumberAdmissions, Average20182019, PercentVariation"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."
+"0","read_csv(""raw_data/covid_raw_data/hospital_admissions_hscp_agesex_20220302.csv"") %>% "
+"0","  clean_names()"
+"2","[1mRows: [22m[34m91972[39m [1mColumns: [22m[34m11[39m"
+"2","[36m──[39m [1mColumn specification[22m [36m─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────[39m
+[1mDelimiter:[22m "",""
+[31mchr[39m (7): HSCP, AgeGroup, AgeGroupQF, Sex, SexQF, AdmissionType, AdmissionTypeQF
+[32mdbl[39m (4): WeekEnding, NumberAdmissions, Average20182019, PercentVariation"
+"2","
+[36mℹ[39m Use `spec()` to retrieve the full column specification for this data.
+[36mℹ[39m Specify the column types or set `show_col_types = FALSE` to quiet this message."

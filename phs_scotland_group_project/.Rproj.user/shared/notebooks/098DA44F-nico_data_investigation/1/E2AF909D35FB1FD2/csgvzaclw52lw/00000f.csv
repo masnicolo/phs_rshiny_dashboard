@@ -1,0 +1,6 @@
+"0","left_join(hb_agesex, hb_simd, by = ""hb"") %>% "
+"0","  left_join(., hb_speciality by = ""hb"")"
+"2","Error: unexpected symbol in:
+""left_join(hb_agesex, hb_simd, by = ""hb"") %>% 
+  left_join(., hb_speciality by""
+"
